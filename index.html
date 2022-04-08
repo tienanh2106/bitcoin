@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update BTC</title>
-    <script src="./main.js  "></script>
+    <script src="./main2.js  "></script>
 </head>
 <style>
     body {
@@ -16,8 +16,11 @@
 
     .main {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .main-table {
@@ -25,7 +28,6 @@
         text-align: center;
     }
 
-    .main-table h2 {}
 
     .main-table td,
     th {
@@ -39,7 +41,14 @@
         <table class="main-table" id="btc">
 
         </table>
+
+        <table class="main-table2">
+            <tr>
+                <td colspan="9">nhập thời gian (phút)<input type="number" id="minutes"></input></td>
+            </tr>
+        </table>
     </div>
+
 </body>
 
 </html>
